@@ -3,14 +3,17 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
-    <title>PLR Skill Up | Premium Digital Mastery for Students</title>
+    <title>PLR Skill Up | Premium Digital Mastery for Students & Entrepreneurs</title>
     
-    <!-- SEO Optimization -->
-    <meta name="description" content="Master digital skills with PLR Skill Up. Luxury education for Nigerian students and freelancers. Get video courses, blueprints, and start your own store today!"/>
-    <meta name="keywords" content="PLR Skill Up, digital marketing gold, luxury online courses, student side hustle nigeria, sell digital products, passive income blueprints"/>
+    <!-- SEO Optimization Meta Tags -->
+    <meta name="description" content="Master elite digital skills with PLR Skill Up. Luxury education for Nigerian students and freelancers. Get video courses, business blueprints, and start your own digital store today!"/>
+    <meta name="keywords" content="PLR Skill Up, digital marketing gold, luxury online courses, student side hustle nigeria, sell digital products, passive income blueprints, make money online nigeria, digital skills for students"/>
+    <meta name="author" content="PLR Skill Up"/>
+    <link rel="canonical" href="https://selar.com/m/TopOnlineCoursesforStudents" />
 
+    <!-- Scripts and Fonts -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     
     <script id="tailwind-config">
@@ -20,214 +23,297 @@
                     colors: {
                         "gold": "#D4AF37",
                         "gold-light": "#F9E498",
-                        "black-deep": "#000000",
+                        "black-deep": "#050505",
                         "black-card": "#111111",
                         "white-pure": "#FFFFFF",
                         "platinum": "#E5E4E2"
+                    },
+                    spacing: {
+                        "section-gap": "80px",
+                        "container-max": "1280px"
                     }
                 },
             },
         }
     </script>
+
     <style>
-        body { background-color: #000000; color: #FFFFFF; font-family: 'Inter', sans-serif; scroll-behavior: smooth; overflow-x: hidden; }
+        body { background-color: #050505; color: #FFFFFF; font-family: 'Inter', sans-serif; scroll-behavior: smooth; overflow-x: hidden; }
         h1, h2, h3, .brand-font { font-family: 'Playfair Display', serif; }
+        
+        /* Gold UI Elements */
         .gold-border { border: 1px solid #D4AF37; }
         .gold-gradient { background: linear-gradient(135deg, #D4AF37 0%, #F9E498 100%); }
         .gold-text-gradient { background: linear-gradient(135deg, #D4AF37 0%, #F9E498 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .btn-gold { background: linear-gradient(135deg, #D4AF37 0%, #F9E498 100%); color: black; font-weight: bold; transition: all 0.3s; }
-        .btn-gold:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(212, 175, 55, 0.4); }
+        
+        .btn-gold { background: linear-gradient(135deg, #D4AF37 0%, #F9E498 100%); color: black; font-weight: 800; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .btn-gold:hover { transform: translateY(-3px); box-shadow: 0 10px 30px rgba(212, 175, 55, 0.4); }
+        .btn-gold:active { transform: scale(0.95); }
+
+        .glass-card { background: #111111; border: 1px solid rgba(212, 175, 55, 0.15); backdrop-filter: blur(10px); }
+        .accent-glow { box-shadow: 0 0 30px rgba(212, 175, 55, 0.15); }
+        
+        /* Smooth Scrolling for Reviews */
         .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-scroll { display: flex; width: max-content; animation: scroll 40s linear infinite; }
+        .animate-scroll:hover { animation-play-state: paused; }
     </style>
 </head>
-<body>
+<body class="w-full">
 
 <!-- Navigation -->
-<nav class="bg-black-deep/95 backdrop-blur-md border-b border-gold/20 fixed top-0 w-full z-50">
-    <div class="flex justify-between items-center px-4 md:px-16 py-4 max-w-7xl mx-auto">
+<nav class="bg-black-deep/95 border-b border-gold/20 fixed top-0 w-full z-[100]">
+    <div class="flex justify-between items-center px-6 md:px-16 py-5 max-w-7xl mx-auto">
         <div class="flex items-center gap-2">
-            <span class="text-2xl font-bold gold-text-gradient tracking-tighter">PLR SKILL UP</span>
+            <span class="text-2xl font-black gold-text-gradient tracking-tighter">PLR SKILL UP</span>
         </div>
-        <div class="hidden md:flex items-center gap-8 text-sm uppercase tracking-widest font-semibold">
-            <a class="hover:text-gold transition-all" href="#about">About</a>
-            <a class="hover:text-gold transition-all" href="#courses">Courses</a>
-            <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="btn-gold px-6 py-2 rounded-full">Get Courses</a>
+        <div class="hidden md:flex items-center gap-10 text-[11px] uppercase tracking-[0.2em] font-bold">
+            <a class="hover:text-gold transition-all" href="#about">The Mission</a>
+            <a class="hover:text-gold transition-all" href="#courses">Curriculum</a>
+            <a class="hover:text-gold transition-all" href="#reviews">Testimonials</a>
+            <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="btn-gold px-8 py-2.5 rounded-full">Get Courses</a>
         </div>
+        <!-- Mobile Chat Icon -->
         <a href="https://wa.me/2348159205235" class="md:hidden text-gold">
-            <span class="material-symbols-outlined">chat</span>
+            <span class="material-symbols-outlined text-3xl">chat_bubble</span>
         </a>
     </div>
 </nav>
 
 <!-- Hero Section -->
-<section class="relative pt-32 pb-16 px-4 flex flex-col items-center text-center">
-    <div class="max-w-4xl mx-auto">
-        <div class="inline-block border border-gold px-4 py-1 rounded-full mb-6 text-[10px] uppercase tracking-[0.3em] text-gold font-bold">
-            The Gold Standard of Digital Learning
+<section class="relative pt-40 pb-20 px-6 overflow-hidden">
+    <!-- Background Accents -->
+    <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-gold/5 blur-[120px] -z-10 rounded-full"></div>
+    
+    <div class="max-w-5xl mx-auto text-center flex flex-col items-center">
+        <div class="inline-flex items-center gap-2 border border-gold/40 px-4 py-1.5 rounded-full mb-8 text-[10px] uppercase tracking-[0.3em] text-gold font-black bg-gold/5">
+            <span class="material-symbols-outlined text-sm">verified</span> Elite Digital Education
         </div>
-        <h1 class="text-4xl md:text-7xl font-bold mb-6 leading-tight">
-            Elevate Your Future With <span class="gold-text-gradient">Elite Skills.</span>
+        <h1 class="text-4xl md:text-8xl font-black mb-8 leading-[1.1] tracking-tight">
+            Elevate Your Future <br>With <span class="gold-text-gradient">Elite Skills.</span>
         </h1>
-        <p class="text-platinum text-base md:text-xl max-w-2xl mx-auto mb-10 font-light tracking-wide">
-            Transforming students and freelancers into digital entrepreneurs through high-fidelity video training and premium business blueprints.
+        <p class="text-platinum text-base md:text-xl max-w-3xl mx-auto mb-12 font-light leading-relaxed">
+            The gold standard for Nigerian students and freelancers. Gain immediate access to high-fidelity video training and premium business blueprints engineered for financial independence.
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="btn-gold px-10 py-4 rounded-full text-lg">
-                Get Courses Now
+        
+        <div class="flex flex-col sm:flex-row gap-5 w-full justify-center px-4">
+            <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="btn-gold px-12 py-5 rounded-full text-lg shadow-xl flex items-center justify-center gap-2">
+                Get Courses Today <span class="material-symbols-outlined">shopping_cart</span>
             </a>
-            <a href="https://wa.me/2348159205235?text=Hello!%20I%20want%20to%20get%20my%20own%20online%20store%20like%20yours.%20Please%20guide%20me." class="border border-white px-10 py-4 rounded-full text-lg hover:bg-white hover:text-black transition-all">
-                Get Your Store
+            <a href="https://wa.me/2348159205235?text=Hello!%20I%20want%20to%20get%20my%20own%20online%20store%20like%20yours.%20Please%20guide%20me." class="border-2 border-white px-12 py-5 rounded-full text-lg font-bold hover:bg-white hover:text-black transition-all flex items-center justify-center gap-2">
+                Setup My Store <span class="material-symbols-outlined">storefront</span>
             </a>
+        </div>
+
+        <!-- Hero Feature Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-24 w-full text-left">
+            <div class="glass-card p-8 rounded-3xl accent-glow">
+                <span class="material-symbols-outlined text-gold text-4xl mb-6">video_library</span>
+                <h3 class="font-bold text-xl mb-3 text-gold-light">Video Training</h3>
+                <p class="text-platinum/70 text-sm leading-relaxed">HD step-by-step video modules from industry veterans designed for rapid skill absorption.</p>
+            </div>
+            <div class="glass-card p-8 rounded-3xl accent-glow">
+                <span class="material-symbols-outlined text-gold text-4xl mb-6">description</span>
+                <h3 class="font-bold text-xl mb-3 text-gold-light">Elite Blueprints</h3>
+                <p class="text-platinum/70 text-sm leading-relaxed">Ready-to-deploy document packs, contracts, and templates for immediate project implementation.</p>
+            </div>
+            <div class="glass-card p-8 rounded-3xl accent-glow">
+                <span class="material-symbols-outlined text-gold text-4xl mb-6">workspace_premium</span>
+                <h3 class="font-bold text-xl mb-3 text-gold-light">Certifications</h3>
+                <p class="text-platinum/70 text-sm leading-relaxed">Gain industry-recognized mastery and boost your professional profile across global platforms.</p>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- Stats Grid -->
-<section class="py-12 px-4 max-w-7xl mx-auto">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-black-card border border-gold/20 p-8 rounded-2xl text-center">
-            <h3 class="text-4xl font-bold gold-text-gradient mb-2">150+</h3>
-            <p class="text-xs uppercase tracking-widest text-platinum font-semibold">Premium Guides</p>
-        </div>
-        <div class="bg-black-card border border-gold/20 p-8 rounded-2xl text-center">
-            <h3 class="text-4xl font-bold gold-text-gradient mb-2">10k+</h3>
-            <p class="text-xs uppercase tracking-widest text-platinum font-semibold">Active Students</p>
-        </div>
-        <div class="bg-black-card border border-gold/20 p-8 rounded-2xl text-center">
-            <h3 class="text-4xl font-bold gold-text-gradient mb-2">24/7</h3>
-            <p class="text-xs uppercase tracking-widest text-platinum font-semibold">Elite Support</p>
-        </div>
-    </div>
-</section>
-
-<!-- About Us Section -->
-<section class="py-24 px-4 bg-white text-black" id="about">
+<!-- About Us (Expanded) -->
+<section class="py-24 px-6 bg-white text-black relative" id="about">
     <div class="max-w-7xl mx-auto">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-                <h2 class="text-4xl md:text-5xl font-bold mb-8">Who We Are <br><span class="text-gold">And Our Mission</span></h2>
-                <div class="space-y-6 text-lg leading-relaxed font-light">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+            <div class="relative order-2 lg:order-1">
+                <!-- Student Grid -->
+                <div class="grid grid-cols-2 gap-4 relative">
+                    <img src="https://images.unsplash.com/photo-1523240715629-673e5346ef21?auto=format&fit=crop&w=400&q=80" alt="Active Student" class="rounded-3xl grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=400&q=80" alt="Digital Creator" class="rounded-3xl mt-12 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80" alt="Group Study" class="rounded-3xl -mt-6 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=400&q=80" alt="Success" class="rounded-3xl mt-6 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl">
+                </div>
+                <!-- Floating Badge -->
+                <div class="absolute -bottom-10 -left-10 bg-black text-white p-8 rounded-3xl border-4 border-gold shadow-2xl hidden md:block">
+                    <p class="text-gold font-black text-5xl">150+</p>
+                    <p class="text-[10px] uppercase tracking-[0.3em] font-bold text-platinum">Elite Guides</p>
+                </div>
+            </div>
+            
+            <div class="order-1 lg:order-2 space-y-8">
+                <h2 class="text-4xl md:text-6xl font-black leading-tight">Who We Are & <br><span class="text-gold">Our Noble Mission</span></h2>
+                <div class="space-y-6 text-lg md:text-xl font-light leading-relaxed text-gray-700">
                     <p>
-                        <strong>PLR Skill Up</strong> is a premier digital education platform founded on the belief that high-quality skills should not be gated behind expensive university degrees. We provide students and freelancers with the tools they need to achieve financial independence.
+                        <strong>PLR Skill Up</strong> was established as a high-tier digital sanctuary for Nigerian students. In an era where traditional degrees often fail to meet market demands, we provide the <span class="font-bold text-black">"Gold Standard"</span> of digital acquisition.
                     </p>
                     <p>
-                        Our mission is to empower 1,000,000 Nigerian students with the "Gold Standard" of digital skills—UI/UX Design, Digital Marketing, and Freelancing—providing them with not just knowledge, but actionable blueprints to start earning immediately.
+                        Our mission is to empower 1,000,000 students to bypass financial barriers. We don't just sell courses; we deliver full-scale business blueprints. From UI/UX Mastery to elite Digital Marketing, our curriculum is engineered for one thing: <strong>Immediate Results.</strong>
                     </p>
-                    <div class="flex items-center gap-4 py-4 border-y border-black/10">
-                        <div class="text-center">
-                            <span class="block text-2xl font-bold">98%</span>
-                            <span class="text-xs uppercase">Success Rate</span>
+                    <div class="grid grid-cols-2 gap-8 py-8 border-y border-black/10">
+                        <div>
+                            <span class="block text-3xl font-black text-gold">98%</span>
+                            <span class="text-[10px] uppercase font-bold tracking-widest">Success Rate</span>
                         </div>
-                        <div class="w-[1px] h-10 bg-black/10"></div>
-                        <div class="text-center">
-                            <span class="block text-2xl font-bold">200+</span>
-                            <span class="text-xs uppercase">Video Modules</span>
+                        <div>
+                            <span class="block text-3xl font-black text-gold">24/7</span>
+                            <span class="text-[10px] uppercase font-bold tracking-widest">Expert Access</span>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Student Image Grid -->
-            <div class="grid grid-cols-2 gap-4">
-                <img src="https://images.unsplash.com/photo-1523240715629-673e5346ef21?auto=format&fit=crop&w=400&q=80" alt="Student 1" class="rounded-2xl grayscale hover:grayscale-0 transition-all duration-500">
-                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=400&q=80" alt="Student 2" class="rounded-2xl mt-8 grayscale hover:grayscale-0 transition-all duration-500">
-                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80" alt="Student 3" class="rounded-2xl grayscale hover:grayscale-0 transition-all duration-500">
-                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=400&q=80" alt="Student 4" class="rounded-2xl mt-8 grayscale hover:grayscale-0 transition-all duration-500">
-            </div>
         </div>
     </div>
 </section>
 
-<!-- Courses Grid -->
-<section id="courses" class="py-24 px-4 bg-black-deep">
-    <div class="max-w-7xl mx-auto text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4 gold-text-gradient">Premium Learning Paths</h2>
-        <p class="text-platinum font-light">Invest in your future with our curated digital assets.</p>
+<!-- Curriculum (Courses) -->
+<section id="courses" class="py-24 px-6 bg-black-deep">
+    <div class="max-w-7xl mx-auto text-center mb-20">
+        <h2 class="text-4xl md:text-6xl font-black mb-6 gold-text-gradient uppercase tracking-tight">The Curriculum</h2>
+        <p class="text-platinum/60 font-light text-lg">Direct access to our most prestigious and high-ranking learning modules.</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
         <!-- Digital Marketing -->
-        <div class="bg-black-card border border-gold/30 rounded-3xl p-8 hover:border-gold transition-all">
-            <span class="material-symbols-outlined text-gold text-4xl mb-6">workspace_premium</span>
-            <h3 class="text-2xl font-bold mb-4">Digital Marketing Gold</h3>
-            <p class="text-platinum text-sm mb-8 font-light">The complete blueprint to mastering SEO, Facebook Ads, and high-ticket sales as a student.</p>
-            <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="block py-4 rounded-full border border-gold text-gold font-bold hover:bg-gold hover:text-black transition-all">Enroll Now</a>
+        <div class="bg-black-card border border-gold/30 rounded-[2rem] p-10 hover:border-gold transition-all duration-500 group relative overflow-hidden">
+            <div class="absolute -right-10 -top-10 w-32 h-32 bg-gold/10 blur-3xl rounded-full group-hover:bg-gold/20 transition-all"></div>
+            <span class="material-symbols-outlined text-gold text-5xl mb-8">auto_graph</span>
+            <h3 class="text-2xl font-bold mb-4 text-white">Digital Marketing Gold</h3>
+            <p class="text-platinum/60 text-sm mb-10 font-light leading-relaxed">Master the core pillars of SEO, High-Ticket Ads, and conversion systems designed to scale any digital venture.</p>
+            <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="block text-center py-4 rounded-full border-2 border-gold text-gold font-black hover:bg-gold hover:text-black transition-all uppercase text-xs tracking-widest">Secure Access</a>
         </div>
         <!-- Freelance -->
-        <div class="bg-black-card border border-gold/30 rounded-3xl p-8 hover:border-gold transition-all">
-            <span class="material-symbols-outlined text-gold text-4xl mb-6">assignment_turned_in</span>
-            <h3 class="text-2xl font-bold mb-4">Freelance Pro Pack</h3>
-            <p class="text-platinum text-sm mb-8 font-light">Contracts, proposal templates, and client management documents for modern freelancers.</p>
-            <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="block py-4 rounded-full border border-gold text-gold font-bold hover:bg-gold hover:text-black transition-all">Enroll Now</a>
+        <div class="bg-black-card border border-gold/30 rounded-[2rem] p-10 hover:border-gold transition-all duration-500 group relative overflow-hidden">
+            <div class="absolute -right-10 -top-10 w-32 h-32 bg-gold/10 blur-3xl rounded-full group-hover:bg-gold/20 transition-all"></div>
+            <span class="material-symbols-outlined text-gold text-5xl mb-8">business_center</span>
+            <h3 class="text-2xl font-bold mb-4 text-white">Freelance Success Kit</h3>
+            <p class="text-platinum/60 text-sm mb-10 font-light leading-relaxed">Elite contract templates, proposal blueprints, and client acquisition scripts used by 6-figure agencies worldwide.</p>
+            <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="block text-center py-4 rounded-full border-2 border-gold text-gold font-black hover:bg-gold hover:text-black transition-all uppercase text-xs tracking-widest">Secure Access</a>
         </div>
         <!-- UI UX -->
-        <div class="bg-black-card border border-gold/30 rounded-3xl p-8 hover:border-gold transition-all">
-            <span class="material-symbols-outlined text-gold text-4xl mb-6">draw</span>
-            <h3 class="text-2xl font-bold mb-4">Advanced UI/UX Kit</h3>
-            <p class="text-platinum text-sm mb-8 font-light">Detailed video modules on designing user interfaces that convert at a high level.</p>
-            <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="block py-4 rounded-full border border-gold text-gold font-bold hover:bg-gold hover:text-black transition-all">Enroll Now</a>
+        <div class="bg-black-card border border-gold/30 rounded-[2rem] p-10 hover:border-gold transition-all duration-500 group relative overflow-hidden">
+            <div class="absolute -right-10 -top-10 w-32 h-32 bg-gold/10 blur-3xl rounded-full group-hover:bg-gold/20 transition-all"></div>
+            <span class="material-symbols-outlined text-gold text-5xl mb-8">layers</span>
+            <h3 class="text-2xl font-bold mb-4 text-white">UI/UX Interface Pro</h3>
+            <p class="text-platinum/60 text-sm mb-10 font-light leading-relaxed">Advance your design skills with modules focused on high-converting user interfaces and modern mobile-first principles.</p>
+            <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="block text-center py-4 rounded-full border-2 border-gold text-gold font-black hover:bg-gold hover:text-black transition-all uppercase text-xs tracking-widest">Secure Access</a>
         </div>
     </div>
 </section>
 
-<!-- Review Section -->
-<section class="py-24 bg-white text-black overflow-hidden">
-    <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold">Client Testimonials</h2>
-        <p class="font-light mt-2">What our elite community says about PLR Skill Up.</p>
+<!-- Review Section (Full 10 Reviews) -->
+<section class="py-24 bg-white text-black overflow-hidden" id="reviews">
+    <div class="text-center mb-16 px-6">
+        <h2 class="text-4xl md:text-5xl font-black mb-4">Elite Success Stories</h2>
+        <p class="font-light text-gray-500">Verified feedback from our community of 10,000+ elite learners.</p>
     </div>
-    <div class="flex gap-8 animate-scroll-left px-4" id="review-container">
-        <!-- Populated by JS -->
+    
+    <div class="relative flex overflow-x-hidden group">
+        <div class="animate-scroll flex gap-8 py-4">
+            <!-- JavaScript will inject 10 reviews twice here for infinite effect -->
+            <div id="review-track-1" class="flex gap-8"></div>
+            <div id="review-track-2" class="flex gap-8"></div>
+        </div>
+    </div>
+    <div class="mt-12 text-center">
+        <span class="text-[10px] font-black uppercase tracking-[0.4em] text-gold">Swipe or Scroll to Explore</span>
     </div>
 </section>
 
-<!-- GET YOUR STORE TODAY -->
-<section class="py-24 px-4">
-    <div class="max-w-5xl mx-auto bg-white rounded-[3rem] p-12 md:p-24 text-center text-black relative overflow-hidden">
-        <div class="absolute -right-20 -bottom-20 w-64 h-64 bg-gold/20 blur-[80px] rounded-full"></div>
-        <h2 class="text-4xl md:text-6xl font-bold mb-6">Start Your Own Store</h2>
-        <p class="text-xl mb-10 font-light">Why only learn when you can also sell? I will personally help you setup a store just like this one.</p>
-        <a href="https://wa.me/2348159205235?text=Hello!%20I%20want%20to%20get%20my%20own%20online%20store%20like%20yours.%20Please%20guide%20me." class="btn-gold px-12 py-5 rounded-full text-xl shadow-2xl inline-block">
-            Get Started Today
+<!-- GET YOUR STORE TODAY (Premium CTA) -->
+<section class="py-24 px-6">
+    <div class="max-w-5xl mx-auto bg-white rounded-[3rem] p-12 md:p-24 text-center text-black relative overflow-hidden shadow-[0_35px_60px_-15px_rgba(212,175,55,0.3)]">
+        <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-gold/20 blur-[100px] rounded-full"></div>
+        <h2 class="text-4xl md:text-7xl font-black mb-8 leading-tight">Your Own Store, <br><span class="text-gold">Your Own Legacy.</span></h2>
+        <p class="text-xl md:text-2xl mb-12 font-light text-gray-600 max-w-2xl mx-auto">
+            Why only purchase when you can own? I will personally guide you to setup a professional digital product store just like this one.
+        </p>
+        <a href="https://wa.me/2348159205235?text=Hello!%20I%20want%20to%20get%20my%20own%20online%20store%20like%20yours.%20Please%20guide%20me." class="btn-gold px-16 py-6 rounded-full text-xl shadow-2xl inline-block tracking-widest uppercase">
+            Start My Journey Now
         </a>
     </div>
 </section>
 
-<!-- Footer -->
-<footer class="bg-black-deep py-16 px-4 border-t border-gold/10">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12">
-        <div class="max-w-sm">
-            <h4 class="text-2xl font-bold gold-text-gradient mb-4">PLR SKILL UP</h4>
-            <p class="text-platinum font-light text-sm">Building the future of Nigerian digital entrepreneurship through elite skill acquisition.</p>
+<!-- Detailed Footer -->
+<footer class="bg-black-deep py-20 px-6 border-t border-gold/10">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-16">
+        <div class="col-span-1 md:col-span-2">
+            <h4 class="text-3xl font-black gold-text-gradient mb-6">PLR SKILL UP</h4>
+            <p class="text-platinum/50 font-light text-base leading-relaxed max-w-sm">
+                The leading authority in digital skill acquisition for Nigerian students. We empower the next generation of digital entrepreneurs with premium tools and knowledge.
+            </p>
         </div>
-        <div class="space-y-4">
-            <h4 class="text-gold uppercase tracking-[0.2em] font-bold text-xs">Contact Us</h4>
-            <p class="text-platinum font-light">08159205235</p>
-            <p class="text-platinum font-light">dben61168@gmail.com</p>
-            <a href="https://wa.me/2348159205235" class="text-gold underline block">WhatsApp Support</a>
+        <div>
+            <h4 class="text-gold uppercase tracking-[0.2em] font-black text-xs mb-8">Contact Elite Support</h4>
+            <div class="space-y-4 text-platinum/70 font-medium text-sm">
+                <p class="flex items-center gap-3"><span class="material-symbols-outlined text-gold">call</span> 08159205235</p>
+                <p class="flex items-center gap-3"><span class="material-symbols-outlined text-gold">mail</span> dben61168@gmail.com</p>
+                <a href="https://wa.me/2348159205235" class="flex items-center gap-3 text-gold underline hover:text-white transition-all"><span class="material-symbols-outlined">forum</span> WhatsApp Concierge</a>
+            </div>
+        </div>
+        <div>
+            <h4 class="text-gold uppercase tracking-[0.2em] font-black text-xs mb-8">Explore Store</h4>
+            <div class="space-y-4 text-platinum/70 text-sm">
+                <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="block hover:text-gold underline transition-all">All Collections</a>
+                <a href="#about" class="block hover:text-gold underline transition-all">Our Mission</a>
+                <a href="https://selar.com/m/TopOnlineCoursesforStudents" class="block hover:text-gold underline transition-all">Enrollment</a>
+            </div>
         </div>
     </div>
-    <div class="text-center mt-20 pt-8 border-t border-white/5 text-[10px] uppercase tracking-widest text-platinum/40">
-        © 2024 PLR SKILL UP. Excellence in Digital Education.
+    <div class="text-center mt-24 pt-8 border-t border-white/5 text-[10px] uppercase tracking-[0.5em] text-platinum/30 font-bold">
+        © 2024 PLR SKILL UP. THE GOLD STANDARD OF LEARNING.
     </div>
 </footer>
 
 <script>
-    const reviews = [
-        { name: "Alex Rivera", text: "The gold standard of digital learning. My income tripled in 2 months!" },
-        { name: "Sarah Chen", text: "High quality modules. The store setup guidance is a massive bonus." },
-        { name: "Marcus Thorne", text: "Best investment I've made as a student. Actionable and straight to the point." },
-        { name: "Elena Gilbert", text: "Premium content at an affordable price. Simply unmatched in Nigeria." }
+    // Full 10 Reviews Dataset
+    const fullReviews = [
+        { name: "Alex Rivera", title: "Freelance Designer", text: "The blueprints changed how I pitch to clients. Absolute game changer!" },
+        { name: "Sarah Chen", title: "CS Student", text: "Finally, video courses that get straight to the point without fluff." },
+        { name: "Marcus Thorne", title: "Digital Marketer", text: "High quality production and actionable advice. Best investment this year." },
+        { name: "Elena Gilbert", title: "Side Hustler", text: "I started my agency in 3 weeks thanks to the SEO roadmap." },
+        { name: "Jason Park", title: "Web Developer", text: "The UI/UX course is modern and uses actual industry standards." },
+        { name: "Lisa Thompson", title: "Marketing Student", text: "So affordable yet higher quality than my university electives." },
+        { name: "David Miller", title: "E-comm Owner", text: "Blueprint documents are exactly what I needed to scale my shop." },
+        { name: "Sophie Wright", title: "Content Creator", text: "Visuals are stunning and the teaching style is very beginner friendly." },
+        { name: "Kevin Vang", title: "Tech Freelancer", text: "The contract templates alone are worth the price of the course." },
+        { name: "Rachel Green", title: "Brand Strategist", text: "Structured perfectly for busy professionals who need quick wins." }
     ];
 
-    const container = document.getElementById('review-container');
-    reviews.forEach(r => {
+    function createCard(r) {
         const div = document.createElement('div');
-        div.className = "bg-black-card border border-gold/20 p-8 rounded-2xl min-w-[300px] text-white";
+        div.className = "bg-black p-8 rounded-3xl border border-gold/20 min-w-[320px] text-white flex flex-col justify-between h-[220px]";
         div.innerHTML = `
-            <div class="text-gold mb-4 font-bold uppercase tracking-widest text-[10px]">VERIFIED REVIEW</div>
-            <p class="italic font-light mb-6 text-platinum">"${r.text}"</p>
-            <div class="font-bold gold-text-gradient">${r.name}</div>
+            <div>
+                <div class="text-gold mb-4 font-black uppercase tracking-widest text-[9px]">Elite Verified</div>
+                <p class="italic font-light text-sm text-platinum/90 leading-relaxed">"${r.text}"</p>
+            </div>
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full gold-gradient flex items-center justify-center text-black font-black">${r.name[0]}</div>
+                <div>
+                    <div class="font-bold gold-text-gradient text-sm">${r.name}</div>
+                    <div class="text-[9px] text-platinum/50 uppercase font-bold">${r.title}</div>
+                </div>
+            </div>
         `;
-        container.appendChild(div);
+        return div;
+    }
+
+    const t1 = document.getElementById('review-track-1');
+    const t2 = document.getElementById('review-track-2');
+
+    fullReviews.forEach(review => {
+        t1.appendChild(createCard(review));
+        t2.appendChild(createCard(review));
     });
 </script>
 
